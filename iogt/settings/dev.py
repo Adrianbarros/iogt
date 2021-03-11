@@ -1,6 +1,6 @@
 from .base import *
 
-# Development Application not passed into production
+# Development Applications not passed into production
 INSTALLED_APPS += [
     'wagtail.api.v2',
     'rest_framework',
