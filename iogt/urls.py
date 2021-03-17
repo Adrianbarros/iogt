@@ -18,7 +18,6 @@ urlpatterns = [
     path('api/v2/', api_router.urls),
 
     path('search/', search_views.search, name='search'),
-
 ]
 
 
